@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+        
+</head>
+<body class="bg-slate-200">
+    
+
+    <main>
+        <div class="fb_page h-screen my-32">
+            <div class="w-3/4 grid grid-cols-2 mx-auto gap-6 ">
+                <div class="my-24">
+                    <h1 class="text-5xl font-bold text-blue-600">facebook</h1>
+                    <p class="text-2xl mt-4">Facebook helps you connect and share with the people in your life.</p>
+                </div>
+                <div class="bg-white rounded p-8 text-center">
+                    <!-- Email input -->
+                    <h5 class="text-left mb-">Please Type: <span class="font-bold">"sontan@baap.com"</span></h5>
+                    <input class="block w-full border rounded p-3" type="email" name="" id="emailInput" placeholder="Enter your Email address">
+
+                    <!-- Password input -->
+                     <h5 class="text-left mt-4 ">Please Type: <span class="font-bold">"secret"</span></h5>
+                    <input class="block w-full border rounded p-3 my-3" type="password" name="" id="passInput" placeholder="Password">
+
+                    <!-- Login button -->
+                    <button id="btn" class="block w-full mx-auto font-bold text-white bg-blue-700 text-1xl py-2 rounded">Log in</button>
+
+                    <!-- Extra -->
+                    <a href="#" class="my-6 block text-center text-blue-600 hover:underline">Forgotten Password</a>
+                    <hr class="my-4">
+                    <button class="text-center text-white bg-green-500 py-3 px-4 rounded font-bold">Create New account</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="bank.js"></script>
+</body>
+</html>
